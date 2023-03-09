@@ -1,0 +1,218 @@
+/* headsection  */
+
+.google-logo{
+    width: 22px;
+  float: left;
+    margin: 1rem;
+    position: fixed;
+    cursor: pointer;
+}
+.header-container{
+   display: flex;
+   justify-content: end;  
+   position: fixed; 
+   right: 0;
+   top: 0;
+ 
+}
+.material-symbols-rounded{
+    margin: .5rem;
+    color: rgb(112, 108, 108);
+    size: 2px;
+    cursor: pointer;
+    
+}
+.material-symbols-rounded:hover{
+    color: rgb(6, 142, 187);
+}
+.profile-logo{
+    width: 22px;
+    margin: .5rem;
+    margin-right: 1rem;
+    
+  
+}
+/*  end of the head section  */
+
+/* ************************************************ */
+
+/* google store */
+.google-store{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: -1px;   
+}
+
+#welcome{
+    color: rgb(62, 62, 65);
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+#store{
+    margin-top: 10px;
+    color: #188038;
+    display: flex;
+    justify-content: center;
+}
+
+/* end of the google store tex */
+p{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+}
+/* check box */
+.product-one{
+font-size: 14px;
+}
+#product{
+    color: #888b89;
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+.connect{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: .8;
+    
+}
+.phones{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: .8;
+    
+}
+.checkbox-container{
+    float: left;
+    margin-left: 2rem;
+}
+
+/* end of the check box section */
+
+/* product section starts */
+.prduct-backgroundcolor{
+   
+    border-radius: .5rem;
+}
+.prduct-backgroundcolor:hover{
+ background-color: rgb(245, 244, 255);
+}
+.product-one{
+    display: flex;
+    justify-content: space-around;
+}
+.phones{
+    width: 200px;
+    height: 200px;
+}
+
+#pro-one{
+    font-weight: 700;
+    opacity: .7;
+}
+/* end of the prduct one */
+.product-two{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8rem;
+}
+.phones{
+    width: 200px;
+    height: 200px;
+}
+
+#pro-two{
+    font-weight: 700;
+    opacity: .7;
+}
+/* bottom section */
+#bottom1{
+    font-size: 12px;
+    opacity: .7;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+#bottom1:hover{
+    color: blue;
+}
+#bottom{
+    font-size: 12px;
+    opacity: .7;
+    font-weight: 400;
+    cursor: pointer;
+}
+#bottom:hover{
+    color: blue;
+}
+.country{
+   float: left; 
+   
+}
+.bottom-container{
+    
+    display: flex;
+    justify-items: end;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 4rem;
+    
+}
+
+/* end of the bottom section */
+
+/* footer line */
+.footer-line{
+background-color: rgb(102, 100, 100);
+height: .7px;
+opacity: .6;
+}
+/* social media icons editing */
+.social{
+    margin: .2rem;
+    width: 15px;
+    opacity: .8;
+    cursor: pointer;
+}
+.social-media{
+    margin-top: .1rem;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    margin-left: 4rem;
+}
+
+/* end of the social media icons */
+
+/* terms and conditions and the country flag */
+
+.flag{
+    width: 22px;
+    object-fit: cover;
+    margin: .3rem;
+}
+.india{
+    display: flex;
+    margin: .5rem;
+    justify-content: end;
+    margin-right: 4rem;
+}
+.foot{
+    font-size: 10px;
+    margin: 6px;
+    opacity: .6;
+    cursor: pointer;
+}
+.foot:hover{
+    color: rgb(13, 13, 224);
+}
